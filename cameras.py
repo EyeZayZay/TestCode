@@ -7,5 +7,5 @@ for line in f.readlines():
 		cameras.append(line)
 f.close()
 f1 = open (“new_camera_list.txt”, “w”)
-for camera in cameras
-f1.write(camera + “\n")
+for camera in cameras:
+	f1.write(camera + “\n")
